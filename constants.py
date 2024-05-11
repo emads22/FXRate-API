@@ -16,7 +16,7 @@ HTML_CONTENT = """
     {
         "source_currency": <span style="color: #FFD700;">"USD"</span>,
         "target_currency": <span style="color: #FFD700;">"EUR"</span>,
-        "rate": <span style="color: #FFD700;">0.85</span>
+        "rate": <span style="color: #FFD700;">0.928099</span>
     }
     </pre>
     <p>The <span style="color: #32CD32;"><code>rate</code></span> field represents the conversion rate from the source currency to the target currency.</p>
