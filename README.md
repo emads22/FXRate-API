@@ -1,7 +1,7 @@
 # Currency Rate API
 
 ## Overview
-Currency Rate API is a Flask-based web application that provides currency conversion rates between different currencies.
+Currency Rate API is a Flask-based web application that provides currency conversion rates between different currencies. It fetches the conversion rates from [x-rates.com](https://www.x-rates.com/), a reliable source for currency exchange information.
 
 ## Features
 - **Home Page**: Renders the home page of the Currency Rate API.
