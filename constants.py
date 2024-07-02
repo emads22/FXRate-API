@@ -9,7 +9,7 @@ HTML_CONTENT = """
     <p>To use this API, you can make GET requests to the following endpoint:</p>
     <p style="color: #20B2AA; font-size: larger;"><code>/api/v1/rate/&lt;source_currency&gt;-&lt;target_currency&gt;</code></p>
     <p>Replace <span style="color: #32CD32;">&lt;source_currency&gt;</span> with the source currency code (e.g., <span style="color: #FFD700;">USD</span>) and <span style="color: #32CD32;">&lt;target_currency&gt;</span> with the target currency code (e.g., <span style="color: #FFD700;">EUR</span>).</p>
-    <p>Example: To get the conversion rate from USD to EUR, you can make a GET request to <a href="/api/v1/rate/USD-EUR" style="color: #20B2AA; font-size: larger; text-decoration: none;"><code>/api/v1/rate/USD-EUR</code></a>.</p>
+    <p>Example: To get the conversion rate from USD to EUR, you can make a GET request to <a href="/api/v1/rate/USD-EUR" style="color: #20B2AA; font-size: larger; text-decoration: none;" target="blank_"><code>/api/v1/rate/USD-EUR</code></a>.</p>
     <h2>Response Format</h2>
     <p>The API returns JSON data with the following format:</p>
     <pre>

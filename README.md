@@ -1,11 +1,17 @@
-# Currency Rate API
+# FXRate API
 
 ## Overview
-Currency Rate API is a Flask-based web application that provides currency conversion rates between different currencies. It fetches the conversion rates from [x-rates.com](https://www.x-rates.com/), a reliable source for currency exchange information.
+FXRate API is a robust and user-friendly Flask-based web application designed to provide accurate and real-time currency conversion rates. It seamlessly fetches exchange rates from [x-rates.com](https://www.x-rates.com/), ensuring users have access to reliable and up-to-date currency information. Whether for financial applications, e-commerce platforms, travel services, or personal use, FXRate API offers a dependable solution for all currency conversion needs.
 
 ## Features
 - **Home Page**: Renders the home page of the Currency Rate API.
 - **Currency Conversion API**: Endpoint for retrieving currency conversion rate between two currencies.
+
+## Technologies Used
+- **beautifulsoup4**: A library for parsing HTML and XML documents.
+- **Flask**: A micro web framework for building web applications.
+- **python-dotenv**: A library for managing environment variables in .env files.
+- **requests**: A library for making HTTP requests.
 
 ## Setup
 1. Clone the repository.
