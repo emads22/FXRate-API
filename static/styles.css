@@ -1,0 +1,48 @@
+body {
+    background-color: #1e1e3f;
+    font-family: 'Lucida Console', monospace;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background-color: #282a36;
+    color: #f8f8f2;
+}
+
+h1 {
+    color: #FFD700;
+}
+
+p {
+    color: #f8f8f2;
+}
+
+.endpoint {
+    color: #20B2AA;
+    font-size: larger;
+}
+
+.code {
+    color: #FFD700;
+}
+
+.example-link {
+    color: #20B2AA;
+    font-size: larger;
+    text-decoration: none;
+}
+
+pre {
+    color: #f8f8f2;
+}
+
+footer {
+    text-align: center; 
+    margin-top: 40px;
+    font-size: 14px;
+}

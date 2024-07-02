@@ -1,5 +1,4 @@
-from flask import Flask, jsonify
-from constants import HTML_CONTENT
+from flask import Flask, jsonify, render_template
 from utils import get_currency_rate
 
 # Create an instance of the Flask application
@@ -9,12 +8,16 @@ app = Flask(__name__)
 @app.route("/")
 def home():
     """
-    Renders the home page of the Currency Rate API.
+    Render the home page of the FXRate API.
+
+    This endpoint handles the root URL and returns the rendered 
+    HTML template for the home page, providing an interface for 
+    users to interact with the currency conversion API.
 
     Returns:
-        str: HTML content for the home page.
+        Response: The rendered HTML template for the home page.
     """
-    return HTML_CONTENT
+    return render_template("index.html")
 
 
 @app.route("/api/v1/rate/<string:source_currency>-<string:target_currency>")

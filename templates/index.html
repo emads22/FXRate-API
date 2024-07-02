@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FXRate API</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">FXRate API</h1>
+        <p>Welcome to the FXRate API!</p>
+        <p>This API provides currency conversion rates between different currencies.</p>
+        <h2>Usage</h2>
+        <p>To use this API, you can make GET requests to the following endpoint:</p>
+        <p class="endpoint"><code>/api/v1/rate/&lt;source_currency&gt;-&lt;target_currency&gt;</code></p>
+        <p>Replace <span class="code">&lt;source_currency&gt;</span> with the source currency code (e.g., <span class="code">USD</span>) and <span class="code">&lt;target_currency&gt;</span> with the target currency code (e.g., <span class="code">EUR</span>).</p>
+        <p>Example: To get the conversion rate from USD to EUR, you can make a GET request to <a href="/api/v1/rate/USD-EUR" class="example-link" target="_blank"><code>/api/v1/rate/USD-EUR</code></a>.</p>
+        <h2>Response Format</h2>
+        <p>The API returns JSON data with the following format:</p>
+        <pre>
+        {
+            "source_currency": <span class="code">"USD"</span>,
+            "target_currency": <span class="code">"EUR"</span>,
+            "rate": <span class="code">0.928099</span>
+        }
+        </pre>
+        <p>The <span class="code"><code>rate</code></span> field represents the conversion rate from the source currency to the target currency.</p>
+        <footer>
+            &copy; 2024 E>
+        </footer>
+    </div>
+</body>
+</html>
