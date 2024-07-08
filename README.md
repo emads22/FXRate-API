@@ -1,5 +1,7 @@
 # FXRate API
 
+![FXRate_API_logo](./static/assets/images/FXRate_API_logo.png)
+
 ## Overview
 FXRate API is a robust and user-friendly Flask-based web application designed to provide accurate and real-time currency conversion rates. It seamlessly fetches exchange rates from [x-rates.com](https://www.x-rates.com/), ensuring users have access to reliable and up-to-date currency information. Whether for financial applications, e-commerce platforms, travel services, or personal use, FXRate API offers a dependable solution for all currency conversion needs.
 

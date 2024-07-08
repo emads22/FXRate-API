@@ -46,3 +46,17 @@ footer {
     margin-top: 40px;
     font-size: 14px;
 }
+
+.title-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.title-logo {
+    width: 60px; 
+    height: 60px;
+    margin-right: 30px; 
+}
+.title {
+    margin: 0;
+}
